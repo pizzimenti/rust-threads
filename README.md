@@ -1,10 +1,8 @@
 # Rust-Threads
 
-Rust-Threads is a simple CPU load generator implemented in Rust. It leverages Rust's powerful multithreading capabilities to stress test your CPU. By calculating the factorials of numbers and their logarithms in parallel, this project showcases both Rust's efficiency and its prowess in concurrent computing.
+Rust-Threads is a simple CPU load generator implemented in Rust written by GPT-4 with 17 human prompts, including the creation of this README. It leverages Rust's powerful multithreading capabilities to stress test your CPU. By calculating the factorials of numbers and their logarithms in parallel, it takes advantage of Rust's efficiency in concurrent computing.
 
-The factorial of a non-negative integer n is the product of all positive integers less than or equal to n. It's denoted by n!, and it can grow very rapidly with the size of n. This makes it an excellent candidate for testing the capabilities of a CPU.
-
-To represent these large factorials, Rust-Threads uses the logarithm base 10. The Stirling's approximation formula is used to calculate the number of digits in a factorial, which is log10(n!) ≈ n * log10(n) - n * log10(e).
+Rust-Threads uses the logarithm base 10. The Stirling's approximation formula is used to calculate the number of digits in a factorial, which is log10(n!) ≈ n * log10(n) - n * log10(e). You will be prompted for the number of digits. Any amount over 10000 should provide a few seconds to a few minutes of CPU on low end machines.
 
 ## Installation
 
@@ -21,4 +19,8 @@ cargo build --release
 ## License
 
 This project is licensed under the terms of the MIT license.
+
+## AI Disclaimer
+
+This file was written by AI and edited by a human.
 
