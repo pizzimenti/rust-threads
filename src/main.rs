@@ -17,7 +17,7 @@ fn num_digits(n: &BigUint) -> f64 {
 
 fn main() {
     // Request maximum number from user
-    println!("Please enter the maximum number to compute the factorial for:");
+    println!("Please enter the maximum number of digits to compute the factorial for:");
 
     let mut max_value_string = String::new();
     io::stdin().read_line(&mut max_value_string).unwrap();
