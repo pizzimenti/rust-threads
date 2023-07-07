@@ -4,6 +4,8 @@ Rust-Threads is a simple CPU load generator implemented in Rust written by GPT-4
 
 Rust-Threads uses the logarithm base 10. The Stirling's approximation formula is used to calculate the number of digits in a factorial, which is log10(n!) ≈ n * log10(n) - n * log10(e). You will be prompted for the number of digits. Any amount over 10000 should provide a few seconds to a few minutes of CPU on low end machines.
 
+<p align="center"><img src="https://render.githubusercontent.com/render/math?math=n! = n %2A (n-1) %2A ... %2A 2 %2A 1"></p>
+
 ## Installation
 
 To install Rust-Threads, you need to have Rust installed. You can download Rust from the official website at [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install).
