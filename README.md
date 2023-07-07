@@ -6,8 +6,6 @@ The factorial of a non-negative integer n is the product of all positive integer
 
 To represent these large factorials, Rust-Threads uses the logarithm base 10. The Stirling's approximation formula is used to calculate the number of digits in a factorial, which is log10(n!) ≈ n * log10(n) - n * log10(e).
 
-<p align="center"><img src="https://render.githubusercontent.com/render/math?math=n! = n %2A (n-1) %2A ... %2A 2 %2A 1"></p>
-
 ## Installation
 
 To install Rust-Threads, you need to have Rust installed. You can download Rust from the official website at [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install).
