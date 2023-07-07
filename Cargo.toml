@@ -1,0 +1,9 @@
+[package]
+name = "rust-threads"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-bigint = "0.3.2"
+num-traits = "0.2.14"
+rayon = "1.5.1"
